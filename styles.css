@@ -140,3 +140,10 @@ button:hover {
 .hide {
   display: none;
 }
+
+@media (max-width: 430px) {
+  .container {
+    width: 350px;
+    height: 450px;
+  }
+}
