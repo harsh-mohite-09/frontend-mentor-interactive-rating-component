@@ -38,6 +38,7 @@ body {
   align-items: center;
   margin: 20px 0;
   color: hsl(217, 12%, 63%);
+  transition: all 0.2s ease-in;
 }
 
 .icon {
@@ -67,6 +68,7 @@ button {
   color: hsl(0, 0%, 100%);
   border-radius: calc(49px / 2);
   font-weight: 700;
+  transition: all 0.15s ease-in;
 }
 
 p {
