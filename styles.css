@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  font-family: "Overpass";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 410px;
+  height: 430px;
+  background: radial-gradient(
+    at 60% top,
+    hsl(213, 19%, 18%),
+    hsl(213, 19%, 12%)
+  );
+  border-radius: 2em;
+  padding: 15px 35px;
+}
+
+.rating-circle {
+  background-color: hsl(213, 19%, 18%);
+  height: 50px;
+  width: 50px;
+  border-radius: calc(50px / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: hsl(217, 12%, 63%);
+}
+
+.icon {
+  background-color: hsl(213, 19%, 18%);
+  height: 50px;
+  width: 50px;
+  border-radius: calc(50px / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 25px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: calc(49px / 2);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.rating-circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.thank {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.selected {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.selected-text {
+  color: hsl(25, 97%, 53%);
+  font-weight: 500;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-para {
+  text-align: center;
+}
+
+.thank-you {
+  margin-top: 30px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
