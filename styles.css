@@ -133,11 +133,11 @@ button:hover {
   margin-top: 30px;
 }
 
-.show {
+#show {
   display: block;
 }
 
-.hide {
+#hide {
   display: none;
 }
 

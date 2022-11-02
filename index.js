@@ -24,9 +24,8 @@ function btnClickHandler() {
     alert("Please choose a rating");
   } else {
     selectedText.innerText = `You selected ${selected} out of 5`;
-    first.classList.remove("show");
-    first.classList.add("hide");
-    final.classList.remove("hide");
-    final.classList.add("show");
+
+    first.id = "hide";
+    final.id = "show";
   }
 }
